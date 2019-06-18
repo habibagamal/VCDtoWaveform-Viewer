@@ -1,0 +1,54 @@
+$date
+	Mon Feb 18 19:06:32 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module multiplier_tb $end
+$var wire 16 ! out [15:0] $end
+$var reg 8 " in1 [7:0] $end
+$var reg 8 # in2 [7:0] $end
+$scope module uut $end
+$var wire 8 $ in1 [7:0] $end
+$var wire 8 % in2 [7:0] $end
+$var wire 16 & out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#2
+b1100 !
+b1100 &
+b100 #
+b100 %
+b11 "
+b11 $
+#5
+b10001 #
+b10001 %
+b1100110 !
+b1100110 &
+b110 "
+b110 $
+#10
+b1010101 !
+b1010101 &
+b101 "
+b101 $
+#20
+b110011 !
+b110011 &
+b11 "
+b11 $
+#30

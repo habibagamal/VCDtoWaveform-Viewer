@@ -1,0 +1,20 @@
+<html>
+<head>
+<script src="http://wavedrom.com/skins/default.js" type="text/javascript"></script>
+<script src="http://wavedrom.com/wavedrom.min.js" type="text/javascript"></script>
+</head>
+<body onload="WaveDrom.ProcessAll()">
+<script type="WaveDrom">
+{ signal : [ 
+
+{name: "data_out", wave: "3.33.3.3.3.3.", data: "0 1 2 3 4 5 3" },
+{name: "clk", wave: "0101010101010" },
+{name: "data_in", wave: "3...3.....3..", data: "0 2 3" },
+{name: "en", wave: "01..........." },
+{name: "ld", wave: "0.........1.." },
+{name: "rst", wave: "10..........." },
+{name: "data_in", wave: "3...3.....3..", data: "0 2 3" },
+{name: "data_out", wave: "33.3.3.3.3.3.", data: "0 1 2 3 4 5 3" },]}
+</script>
+</body>
+</html>

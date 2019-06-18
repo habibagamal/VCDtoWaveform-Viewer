@@ -1,0 +1,64 @@
+$date
+	Thu Feb 21 09:58:48 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mul_tb $end
+$var wire 16 ! p [15:0] $end
+$var reg 8 " mc [7:0] $end
+$var reg 8 # mp [7:0] $end
+$scope module dut $end
+$var wire 8 $ mc [7:0] $end
+$var wire 8 % mp [7:0] $end
+$var wire 1 & sign $end
+$var wire 16 ' up [15:0] $end
+$var wire 8 ( ump [7:0] $end
+$var wire 8 ) umc [7:0] $end
+$var wire 16 * p [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 *
+b0 )
+b0 (
+b0 '
+0&
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+b11001000 !
+b11001000 *
+b11001000 '
+b10100 )
+b1010 (
+b10100 "
+b10100 $
+b1010 #
+b1010 %
+#30
+b1111111100111000 !
+b1111111100111000 *
+1&
+b11001000 '
+b1010 (
+b11110110 #
+b11110110 %
+#50
+b11001000 !
+b11001000 *
+0&
+b11001000 '
+b10100 )
+b11101100 "
+b11101100 $
+#60
